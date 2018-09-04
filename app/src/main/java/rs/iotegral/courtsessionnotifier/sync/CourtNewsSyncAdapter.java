@@ -273,7 +273,7 @@ public class CourtNewsSyncAdapter extends AbstractThreadedSyncAdapter {
      */
     private static void onAccountCreated(Account newAcc, Context context) {
         // After account creation, configure auto-sync
-        final int sync = Utils.getSyncInterval(context);
+        final int sync = Integer.parseInt(PreferenceManager.getDefaultSharedPreferences(context).getString("court_news_sync_frequency", "900"));
         Log.d("onAccountCreated", "FETCHED SYNC INTERVAL = " + sync);
         CourtNewsSyncAdapter.configurePeriodicSync(context, sync, false);
         ContentResolver.setSyncAutomatically(newAcc, context.getString(R.string.content_authority), true);

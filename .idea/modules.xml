@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CourtSessionNotifier.iml" filepath="$PROJECT_DIR$/CourtSessionNotifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/court-news-notifier.iml" filepath="$PROJECT_DIR$/court-news-notifier.iml" />
     </modules>
   </component>
 </project>
