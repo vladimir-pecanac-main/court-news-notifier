@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CourtSessionNotifier</string>
+    <string name="action_settings">Settings</string>
+    <string name="sync_account_type">rs.iotegral.courtsessionnotifier</string>
+    <string name="content_authority">rs.iotegral.courtsessionnotifier.app</string>
+    <string name="title">Title</string>
+    <string name="publish_date">Publish date</string>
+    <string name="app_title">Ustavni sud</string>
+    <string name="fragment_main_title">Ustavni sud - Vijesti</string>
+    <string name="court_news_sync_frequency_title">Sync frequency</string>
+    <string name="court_news_notification_label">Court news notifications</string>
+    <string name="court_news_notification_value">enable_court_news_notifications</string>
+</resources>

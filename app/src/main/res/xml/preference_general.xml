@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="@string/court_news_notification_label"
+        android:key="@string/court_news_notification_value"
+        android:summaryOff="Disabled"
+        android:summaryOn="Enabled"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:defaultValue="900"
+        android:entries="@array/court_news_sync_frequency_labels"
+        android:entryValues="@array/court_news_sync_frequency_values"
+        android:key="court_news_sync_frequency"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="%s"
+        android:title="@string/court_news_sync_frequency_title" />
+</PreferenceScreen>
